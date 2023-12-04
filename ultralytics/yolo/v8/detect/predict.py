@@ -121,7 +121,7 @@ def UI_box(x, img, color=None, label=None, line_thickness=None):
         cv2.putText(img, label, (c1[0], c1[1] - 2), 0, tl / 3, [225, 255, 255], thickness=tf, lineType=cv2.LINE_AA)
 
 
-
+line = [(100, 550), (1550, 550)]
 def draw_boxes(img, bbox, names,object_id, identities=None, offset=(0, 0)):
     #cv2.line(img, line[0], line[1], (46,162,112), 3)
 
